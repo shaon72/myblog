@@ -32,7 +32,7 @@ const Navbar = () => {
           <a href="#" className="text-md font-semibold leading-6">
             Blog
           </a>
-          <a href="/about-me" className="text-md leading-6">
+          <a href="/myblog/about-me" className="text-md leading-6">
             About me
           </a>
           
