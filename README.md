@@ -1,0 +1,1 @@
+This is a simple blog built using nextjs.
