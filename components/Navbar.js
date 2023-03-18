@@ -1,7 +1,5 @@
 import { Dialog, Disclosure, Fragment, Popover, Transition } from '@headlessui/react'
-import {
-  Bars3Icon,
-} from '@heroicons/react/24/outline'
+import { Bars3Icon } from '@heroicons/react/24/outline'
 import { XMarkIcon, ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import { useState } from 'react';
 
@@ -29,7 +27,7 @@ const Navbar = () => {
 
         <Popover.Group className="hidden lg:flex lg:mx-auto lg:gap-x-12">
 
-          <a href="#" className="text-md font-semibold leading-6">
+          <a href="/" className="text-md font-semibold leading-6">
             Blog
           </a>
           <a href="/myblog/about-me" className="text-md leading-6">
